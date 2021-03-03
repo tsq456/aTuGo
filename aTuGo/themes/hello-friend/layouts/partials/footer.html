@@ -6,13 +6,13 @@
 <footer class="footer">
   <div class="footer__inner">
     <div class="copyright">
-      <span>共 {{ len (where .Site.RegularPages "Section" "posts") }} 篇文章</span><span> {{$scratch.Get "total" }} 字</span>
+      <span>共 <p style="display: inline; color:rgb(214, 214, 214)">{{ len (where .Site.RegularPages "Section" "posts") }}</p> 篇文章 | <p style="display: inline; color:rgb(214, 214, 214)">{{$scratch.Get "total" }}</p> 字</span>
     </div>
     {{ if $.Site.Copyright }}
       <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
     {{else}}
       <div class="copyright">
-        <span>© {{ now.Year }} Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> Theme by <a href="https://twitter.com/panr" target="_blank" rel="noopener">Panr</a></span>
+        <span>Powered by <a href="https://gohugo.io" target="_blank" rel="noopener" style="text-decoration: none; font-weight:700">Hugo</a> & <a href="vercel.com" target="_blank" rel="noopener" style="text-decoration: none; font-weight:700">Vercel</a></span>
       </div>
     {{end}}
   </div>
