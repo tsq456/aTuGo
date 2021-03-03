@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://atugo.me/"
 languageCode = "zh-CN"
-title = "阿凸test1758"
+title = "阿凸"
 
 theme = "hello-friend"
 summaryLength = 140
