@@ -6,31 +6,36 @@ theme = "hello-friend"
 summaryLength = 140
 hasCJKLanguage = true
 
-name = "首页"
-url = "/"
-weight = "1"
-[[menu.main]]
-name = "文章"
-url = "/posts"
-weight = "2"
+[permalinks]
+  posts = "/:filename/"
+  tags = "/tags/:slug/"
+
+paginate =  10
+
+# [[menu.main]]
+# name = "文章"
+# url = "/posts"
+# weight = "1"
+
 [[menu.main]]
 name = "观影"
 url = "/movies"
-weight = "3"
+weight = "1"
 [[menu.main]]
 name = "归档"
 url = "/archives"
-weight = "4"
+weight = "2"
 [[menu.main]]
 name = "关于"
 url = "/about"
-weight = "5"
+weight = "3"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+  # contentTypeName = "posts"
+
   # "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
   # if you set this to 0, only submenu trigger will be visible
   # showMenuItems = 4
   # Enable to show reading time in minutes for posts
