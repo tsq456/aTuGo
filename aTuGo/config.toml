@@ -1,21 +1,39 @@
-baseURL = "http://atugo.me/"
-languageCode = "zh-CN"
-title = "阿凸"
+baseURL = "http://atugo.me"
+DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "en-us"
+title = "土狗"
+# copyright = "土狗" 
+theme = "diary"
+# googleAnalytics = "UA-123-45"
 
-theme = "hello-friend"
-summaryLength = 140
-hasCJKLanguage = true
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
 
-[permalinks]
-  posts = "/:filename/"
-  tags = "/tags/:slug/"
+[params]
+subtitle = "英雄主义"
+enableGitalk = false
+enableTwikoo = true
+# googleSearchCode = "f4469f42e31d05da1"
 
-paginate =  10
+# Twitter Card and Open Graph settings
+enableOpenGraph = true
+enableTwitterCards = true
+title = "My Blog" # will set 'og:site_name'
+description = "My HomePage Description"  # will set 'og:description'
 
-# [[menu.main]]
-# name = "文章"
-# url = "/posts"
-# weight = "1"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
 
 [[menu.main]]
 name = "观影"
@@ -29,38 +47,3 @@ weight = "2"
 name = "关于"
 url = "/about"
 weight = "3"
-
-[params]
-  # dir name of your blog content (default is `content/posts`)
-  # contentTypeName = "posts"
-
-  # "light" or "dark"
-  defaultTheme = "light"
-  # if you set this to 0, only submenu trigger will be visible
-  # showMenuItems = 4
-  # Enable to show reading time in minutes for posts
-  showReadingTime = true
-  logoText = "hello friend"
-
-  MenuMore = "更多"
-  DateFormatList = "2006-01-02 15:04:05"
-  DateFormatSingle = "2006-01-02 15:04:05"
-  ReadMore = "阅读全文"
-
-  EditPath = 'https://github.com/lmm214/immmmm/edit/master/content'
-
-[markup]
-[markup.goldmark]
-[markup.goldmark.renderer]
-  unsafe = true
-
-[outputs]
-  home = ["Atom", "HTML","JSON"] # <domain>/atom.xml
-  page = ["HTML"]
-  
-[outputFormats.Atom]
-  mediatype = "application/rss"
-  baseName = "atom"
-
-[params.twikoo]
-	enable = true

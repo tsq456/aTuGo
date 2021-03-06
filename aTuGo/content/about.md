@@ -1,6 +1,9 @@
 ---
 title: "关于"
-layout: "posts"
+description: "欢迎认识我"
+layout: "single"
+comment: false
+featured_image: "https://cdnb.artstation.com/p/assets/images/images/033/339/961/large/artkomet-saby-menyhei-hogwartsinthesnow-final.jpg"
 ---
 
 ### 职业
