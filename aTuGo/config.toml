@@ -1,4 +1,4 @@
-baseURL = "http://atugo.me"
+baseURL = "https://atugo.me"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
 title = "土狗"
