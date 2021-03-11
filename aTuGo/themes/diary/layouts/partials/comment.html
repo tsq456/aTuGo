@@ -22,7 +22,7 @@
 {{ end }}
 
 <!-- Twikoo 评论 -->
-{{- if .Site.Params.enableTwikoo -}}
+{{ if .Site.Params.enableTwikoo }}
 <div class="pagination__title">
   <span class="pagination__title-h">欢迎评论</span>
   <hr />
@@ -30,11 +30,11 @@
   <div id="tcomment"></div>
   <script src="https://cdn.jsdelivr.net/npm/twikoo@1.2.4-beta/dist/twikoo.all.min.js"></script>
   <script>twikoo.init({ envId: 'blog-7g64ycaa61ba0fad', el: '#tcomment' })</script>
-{{- end }}
+{{ end }}
 
 {{/*  waline评论  */}}
 
-{{- if .Site.Params.enableWaline -}}
+{{ if .Site.Params.enableWaline }}
 <div id="waline"></div>
 <script>
   new Waline({
@@ -43,4 +43,4 @@
     serverURL: 'https://blogcomment-iiejpi01x-tsq456.vercel.app'
   });
 </script>
-{{- end }}
+{{ end }}
