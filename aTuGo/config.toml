@@ -21,8 +21,8 @@ theme = "diary"
 [params]
 subtitle = "英雄主义"
 enableGitalk = false
-enableTwikoo = true
-enableWaline = false
+enableTwikoo = false
+enableWaline = true
 # googleSearchCode = "f4469f42e31d05da1"
 
 # Twitter Card and Open Graph settings
