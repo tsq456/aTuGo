@@ -31,3 +31,16 @@
   <script src="https://cdn.jsdelivr.net/npm/twikoo@1.2.4-beta/dist/twikoo.all.min.js"></script>
   <script>twikoo.init({ envId: 'blog-7g64ycaa61ba0fad', el: '#tcomment' })</script>
 {{- end }}
+
+{{/*  waline评论  */}}
+
+{{- if .Site.Params.enableWaline -}}
+<div id="waline"></div>
+<script>
+  new Waline({
+    el: '#waline',
+    path: location.pathname,
+    serverURL: 'https://blogcomment-git-master-tsq456.vercel.app/'
+  });
+</script>
+{{- end }}
