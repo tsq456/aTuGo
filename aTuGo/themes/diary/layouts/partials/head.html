@@ -122,6 +122,8 @@ $(
 <script type="text/javascript" src="{{.Site.BaseURL}}/js/main-diy.js"></script>
 
 {{/*  waline评论  */}}
+{{ if and (.Site.Params.enableWaline) (.IsPage) }}
 <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+{{ end }}
 
 </head>
