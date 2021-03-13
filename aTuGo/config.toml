@@ -22,7 +22,7 @@ theme = "diary"
 subtitle = "英雄主义"
 enableGitalk = false
 enableTwikoo = false
-enableWaline = true
+enableWaline = false
 # googleSearchCode = "f4469f42e31d05da1"
 
 # Twitter Card and Open Graph settings
@@ -30,21 +30,30 @@ enableOpenGraph = true
 enableTwitterCards = true
 title = "My Blog" # will set 'og:site_name'
 description = "My HomePage Description"  # will set 'og:description'
+disableAutoCollapse = true
 
 
 [taxonomies]
    tag = "tags"
    category = "categories"
 
-[[menu.main]]
-name = "观影"
-url = "/movies"
-weight = "1"
+
 [[menu.main]]
 name = "归档"
-url = "/archives"
+url = "/posts"
+weight = "1"
+
+[[menu.main]]
+name = "分类"
+url = "/categories"
 weight = "2"
+
+[[menu.main]]
+name = "标签"
+url = "/tags"
+weight = "3"
+
 [[menu.main]]
 name = "关于"
 url = "/about"
-weight = "3"
+weight = "4"
