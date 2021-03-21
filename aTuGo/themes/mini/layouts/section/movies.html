@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<div class="movie-content">
+    <h1 class="title">{{ .Title }}</h1>
+    <div class="container"></div>
+</div>
+
+<script>
+new Bmdb({
+  type: 'movie',
+  selector: '.container',
+  secret: 'KgUFhzKeTC37XkzBFcw1dtLC4R5rEh9407pWXihWtia4xuQQjOfgYvcpaZ1xPDvr',
+  noMoreDataTips: '没有更多数据了'
+})
+</script>
+
+
+{{ end }}

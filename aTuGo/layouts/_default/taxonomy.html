@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section id="archive">
+
+    {{ range .Data.Pages.GroupByDate "2006" }}
+        <div class="group">
+            <h3 class="key">
+               {{ .Key }}年
+            </h3>
+
+            {{ range .Pages }}
+                <div class="value">
+                  <div class="date">
+                      {{ .Date.Format "2006-01-02" }}
+                  </div>
+                  <div class="title">
+                      <a href="{{ .Permalink }}">
+                          {{ .Title }}
+                      </a>
+                  </div>
+                </div>
+            {{ end }}          
+        </div>
+
+    {{ end }}
+
+
+
+</section>
+
+
+{{ end }}
