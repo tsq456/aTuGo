@@ -1,40 +1,48 @@
 baseURL = "https://atugo.me"
-languageCode = "zh-cn"
+DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "en-us"
 title = "土狗"
-theme = "mini"
-
-# 每页显示文章数量
-paginate = 5
-
-hasCJKLanguage = true
-
-# 固定链接
-[permalinks]
-  posts = "/posts/:filename"
-
+# copyright = "土狗" 
+theme = "diary"
+# googleAnalytics = "UA-123-45"
 
 [markup]
   [markup.highlight]
-    guessSyntax = "true"
-    style = "emacs"
-
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
 
 [params]
-  author = "土狗"
-  bio = "热爱生活"
-  description = "My Blog"
+subtitle = "英雄主义"
+enableGitalk = false
+enableTwikoo = false
+enableWaline = true
+# googleSearchCode = "f4469f42e31d05da1"
 
-  enableComments = true
-  enableGoogleAnalytics = false
+# Twitter Card and Open Graph settings
+enableOpenGraph = true
+enableTwitterCards = true
+title = "My Blog" # will set 'og:site_name'
+description = "My HomePage Description"  # will set 'og:description'
 
 
-[[menu.main]]
-name = "归档"
-url = "/posts"
-weight = "1"
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
 [[menu.main]]
 name = "观影"
 url = "/movies"
+weight = "1"
+[[menu.main]]
+name = "归档"
+url = "/archives"
 weight = "2"
 [[menu.main]]
 name = "关于"
