@@ -1,0 +1,24 @@
+<nav class="post-pagination">
+
+    {{if .Next}}
+    <a class="newer-posts" href="{{.Next.Permalink}}">
+上一篇<br>{{.Next.Title}}
+    </a>
+    {{else}}
+    <a class="newer-posts">
+上一篇<br>没有啦
+    </a>
+    {{end}}
+    
+    {{if .Prev}}
+    <a class="older-posts" href="{{.Prev.Permalink}}">
+下一篇<br>{{.Prev.Title}}
+    </a>
+    {{else}}
+    <a class="older-posts">
+        下一篇<br>没有啦
+    </a>
+    {{end}}
+</nav>
+
+<hr>
