@@ -27,11 +27,13 @@ a:hover {
 }
 
 /* markdown content styles */
+
 ul {
   list-style-position: inside;
   padding-left: 20px;
   padding-right: 12px;
   margin: 10px auto;
+  list-style: circle;
 }
 
 ol {
@@ -39,6 +41,7 @@ ol {
   padding-left: 20px;
   padding-right: 12px;
   margin: 10px auto;
+  list-style: decimal;
 }
 
 blockquote {
@@ -54,7 +57,7 @@ blockquote {
 hr {
   display: block;
   border: none;
-  height: 2px;
+  height: 1px;
   margin: 40px auto;
   background: #eee;
 }
@@ -588,7 +591,7 @@ nav.navigation a:hover {
 
 /* section page */
 #section {
-  width: var(--conten-width);
+  max-width: var(--conten-width);
   margin: 48px auto 0 auto;
   padding: 0 24px;
 }

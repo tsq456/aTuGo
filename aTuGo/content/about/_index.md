@@ -1,20 +1,20 @@
-+++
-title = "关于"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
-comment = false
-+++
+---
+title:  "关于"
+date: "2021-03-22"
+comment: false
+---
+
+
 
 ### 职业
+
 交互设计师，入行蛮打蛮算快七年了，期间做过软件，做过游戏，设计能力不算太好不算太差，只是喜欢沉浸在做设计的过程中。
 
 ### 这个博客
-之前心血来潮折腾过[Hexo](https://hexo.io)、[Typecho](http://typecho.org/)以及[Notion](https://notion.so)+[Super](https://super.so)做的简单简历网页，Hexo折腾的过程中发现自己的注意力慢慢的就转移到折腾主题上去了，Typecho也类似，可能是自己做设计的臭毛病造成的，总想着自己弄出一个个性化好看的站点，但是其实整博客的初心还是想**说能够记录一些生活或者设计上的感悟。**
+之前心血来潮折腾过[Hexo](https://hexo.io)、[Typecho](http://typecho.org/)以及[Notion](https://notion.so)+[Super](https://super.so)做的简单简历网页，Hexo折腾的过程中发现自己的注意力慢慢的就转移到折腾主题上去了，Typecho也类似，可能是自己做设计的臭毛病造成的，总想着自己弄出一个个性化好看的站点，但是其实整博客的初心还是想说能够记录一些生活或者设计上的感悟。
 
-希望这次能够长期坚持下去。
+至于博客的名字，因为之前某个时候，有个外号老狗的人给我取了个外号阿凸，然后在建立这个站点的时候想娶个顺口点的名字，就想到atugo（~~阿凸go~~）这个名字了，因为是原音+辅音的构成形式所以会比较顺口，然后读了一会儿就想算叫 ~~阿~~土狗算了。
 
 ### 主题
 
-主题来自[木木木木木](https://immmmm.com/)，主要还是因为简单，不至于花太多的时间在折腾主题上，当然也希望未来自己深入学习前端后能够自己魔改出一些小玩意儿。
+主题魔改自[nodejh](https://github.com/nodejh/hugo-theme-cactus-plus)，主要是因为该主题的代码实在简单，简单到很多地方CSS样式上的漏洞我这种水平的人都能看出来...同时也没有任何的原生JS和第三方框架，这样在外接一些integration（之前用的一些主题因为用了Vue之类的框架，导致用的一些第三方写的模块没法很好的兼容），也能够很好的匹配目前在自学状态下的前端水平，更好的实践运用以助于吸收知识。

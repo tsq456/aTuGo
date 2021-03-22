@@ -41,3 +41,8 @@ weight = "2"
 name = "关于"
 url = "/about"
 weight = "3"
+[[menu.main]]
+name = "建设"
+url = "/construct"
+pre = "<i class='fas fa-drafting-compass'></i>"
+weight = "4"

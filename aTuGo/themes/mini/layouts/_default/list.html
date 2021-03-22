@@ -10,7 +10,7 @@
             {{ range .Pages }}
                 <div class="value">
                   <div class="date">
-                      {{ .Date.Format "2006-02-01" }}
+                      {{ .Date.Format "2006-01-02" }}
                   </div>
                   <div class="title">
                       <a href="{{ .Permalink }}">
@@ -21,8 +21,6 @@
             {{ end }}          
         </div>
     {{ end }}
-
-
 </section>
 
 
