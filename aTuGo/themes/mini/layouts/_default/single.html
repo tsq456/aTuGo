@@ -1,8 +1,6 @@
 {{ define "main" }}
 
 <section id="single">
-    {{ partialCached "breadcrumb" . }}
-
     <h1 class="title">{{ .Title }}</h1>
 
     <div class="tip">
@@ -33,6 +31,7 @@
 
     {{ with .Params.tags }}
         <div class="tags">
+          <p style="display: inline-block; margin:5px 0 5px 0; color: #b6b6b6">Tags：</p>
             {{ range . }}
                 <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
             {{ end }}
@@ -43,9 +42,15 @@
     <p style="color:rgb(182, 182, 182); margin-top:40px;">最后编辑于 {{.Page.Lastmod.Format "2006-01-02" }}</p>
     {{ end }}
 
+
     {{ partial "postpagination.html" . }}
-    {{ partial "comment.html" . }}
-    {{ partial "toc.html" . }}
+
+    {{ if .Params.comment }}
+        {{ partial "comment.html" . }}
+    {{ else }}
+        <p style="text-align: center; margin-top: 20px; font-size: 12px;">该页面已关闭评论</p>
+    {{ end }}
+
     
 
 </section>

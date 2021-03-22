@@ -4,6 +4,7 @@ date: 2021-03-17T08:51:43+08:00
 draft: false
 featured_image: "https://cdnb.artstation.com/p/assets/images/images/035/313/561/large/yeonjun-park-archer-2-d1.jpg"
 description: "this is a test article"
+toc: true
 ---
 
 this is a hugo test website. It's for personal use, so others can't use the theme of the website,if I found someone use the theme, I will get you to the court.

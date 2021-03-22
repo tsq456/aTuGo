@@ -24,6 +24,7 @@ hasCJKLanguage = true
   bio = "热爱生活"
   description = "My Blog"
 
+
   enableComments = true
   enableGoogleAnalytics = false
 

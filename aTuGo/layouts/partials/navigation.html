@@ -10,14 +10,16 @@
 	{{/*  左上LOGO至此完结  */}}
 
 	{{/*  导航页签  */}}
+	{{ if or .IsHome }}
 	<div class="main-width">
 		<div class="centernav">
-			{{ if .IsHome }}
+
 			{{ $currentPage := . }}
 				{{ range .Site.Menus.main }}
 				<a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 				{{ end }}
-			{{ end}}
+
 		</div>
-	</div>		
+	</div>
+	{{ end}}	
 </nav>
