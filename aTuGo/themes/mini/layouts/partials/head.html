@@ -19,6 +19,18 @@
     {{ template "_internal/google_analytics_async.html" . }}
 {{ end }}
 
+{{/*  open Graph  */}}
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:description" content="{{ .Params.description }}" />
+
+
+<!-- twitter-cards -->
+{{if .Site.Params.enableTwitterCards}}
+{{ template "_internal/twitter_cards.html" . }}
+{{end}}
+
 
 {{ if .OutputFormats.Get "RSS" }}
   {{ with .OutputFormats.Get "RSS" }}

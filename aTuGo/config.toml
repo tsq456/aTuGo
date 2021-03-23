@@ -15,8 +15,35 @@ hasCJKLanguage = true
 
 [markup]
   [markup.highlight]
-    guessSyntax = "true"
-    style = "emacs"
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xhtml = false
 
 
 [params]
@@ -27,6 +54,7 @@ hasCJKLanguage = true
 
   enableComments = true
   enableGoogleAnalytics = false
+  enableOpenGraph = true
 
 
 [[menu.main]]

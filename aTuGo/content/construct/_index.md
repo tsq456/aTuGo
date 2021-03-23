@@ -6,6 +6,9 @@ comment: true
 
 ### 待办
 
+test
+{{< game co2jxw "BRAVELY DEFAULT" 2020-02-01 3 "这是一款横版游戏中的极品！">}}
+
 [ ] 标签页建立
 
 [ ] 文章目录

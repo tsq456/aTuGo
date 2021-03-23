@@ -151,11 +151,12 @@ h4:hover a {
 
 .highlight pre {
   padding: 7px;
+
 }
 
 .highlight {
   max-width: 100%;
-  overflow-x: auto;
+  /* overflow-x: auto; */
 }
 
 p code {
@@ -676,4 +677,47 @@ nav.navigation a:hover {
 
 #waline .vpower a {
   color: #292929;
+}
+
+
+/* shortcode */
+
+/* gamecard */
+
+.gamecard {
+  width: 90%;
+  background-color: rgba(128, 128, 128, 0.138);
+  margin: 0 auto;
+  line-height:0;
+  border-radius: 5px;
+}
+
+.gamecard .cover {
+  display: inline-block;
+}
+
+.gamecard .cover img {
+  border-radius: 5px;
+  width: 120px;
+  padding:10px;
+}
+
+.info {
+  display: inline-block; 
+  vertical-align: top;
+  border: 1px solid transparent;
+}
+
+
+.gamecard .info p {
+  line-height: 20px;
+  padding: 10px 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.gamecard .info .name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
