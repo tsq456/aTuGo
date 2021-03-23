@@ -4,7 +4,10 @@
     </div>  
     <div class="info">
         <p class="name">{{ .Get 1 }}</p>
-        <p class="meta">游戏日期：{{ .Get 2}}&nbsp;&nbsp;//&nbsp;&nbsp;评级：{{ if eq (.Get 3) 1}}🌝🌑🌑🌑🌑{{ else if eq (.Get 3) 2}}🌝🌝🌑🌑🌑{{ else if eq (.Get 3) 3}}🌝🌝🌝🌑🌑{{ else if eq (.Get 3) 4}}🌝🌝🌝🌝🌑{{ else if eq (.Get 3) 5}}🌝🌝🌝🌝🌝{{ end }}</p>
+        <div class="meta">
+            <p>游戏日期：{{ .Get 2}}</p>
+            <p>评级：{{ if eq (.Get 3) 1}}🌝🌑🌑🌑🌑{{ else if eq (.Get 3) 2}}🌝🌝🌑🌑🌑{{ else if eq (.Get 3) 3}}🌝🌝🌝🌑🌑{{ else if eq (.Get 3) 4}}🌝🌝🌝🌝🌑{{ else if eq (.Get 3) 5}}🌝🌝🌝🌝🌝{{ end }}</p>
+        </div>
         <p class="describe">{{ .Get 4}}</p>
     </div>
 </div>

@@ -684,40 +684,102 @@ nav.navigation a:hover {
 
 /* gamecard */
 
-.gamecard {
-  width: 90%;
+/* .gamecard {
+  width: 80%;
   background-color: rgba(128, 128, 128, 0.138);
   margin: 0 auto;
-  line-height:0;
   border-radius: 5px;
+  height: 180px;
+  min-height: 180px;
+  position: relative;
 }
 
 .gamecard .cover {
-  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 100%;
 }
 
 .gamecard .cover img {
   border-radius: 5px;
   width: 120px;
-  padding:10px;
 }
 
 .info {
-  display: inline-block; 
-  vertical-align: top;
-  border: 1px solid transparent;
+  position: absolute; 
+  padding-left: 140px;
+  padding-right: 10px;
 }
-
 
 .gamecard .info p {
   line-height: 20px;
-  padding: 10px 0;
   margin: 0;
   font-size: 14px;
 }
+.gamecard .info .meta {
+  margin-top: 10px;
+}
+.gamecard .info .meta p {
+  display: inline-block;
+  margin-right: 10px;
+}
 
 .gamecard .info .name {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
-  margin-bottom: 10px;
+  padding: 10px 0 0 0;
 }
+
+.gamecard .info .describe {
+  margin-top: 20px;
+  font-size: 16px;
+} */
+
+.gamecard {
+  max-width: 90%;
+  background-color: rgba(128, 128, 128, 0.138);
+  margin: 30px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  line-height: 0;
+  padding: 10px;
+}
+
+.gamecard .cover {
+  float: left;
+}
+
+.gamecard .cover img {
+  border-radius: 5px;
+  width: 120px;
+}
+
+.gamecard .info {
+  margin-left: 140px;
+  max-width: 80%;
+}
+
+.gamecard .info p {
+  line-height: 20px;
+  margin: 0;
+  font-size: 14px;
+}
+.gamecard .info .meta {
+  margin-top: 10px;
+}
+.gamecard .info .meta p {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.gamecard .info .name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.gamecard .info .describe {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
