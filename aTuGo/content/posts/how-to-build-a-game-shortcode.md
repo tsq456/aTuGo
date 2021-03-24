@@ -54,15 +54,15 @@ hugo shortcode的写法是`{{ shortcodename parameters }}`，其中shortcodename
 
 海报从[igdb](https://www.igdb.com/)搞，通过观察可以发现海报的地址只有jpg之前的一段字符是不一样的，因此将该部分替换成参数
 
-```bash
-https://images.igdb.com/igdb/image/upload/t_cover_big/co2jxw.jpg
-https://images.igdb.com/igdb/image/upload/t_cover_big/co1zv7.jpg
-```
+> https://images.igdb.com/igdb/image/upload/t_cover_big/**<u>co2jxw</u>**.jpg
+>
+> https://images.igdb.com/igdb/image/upload/t_cover_big/**<u>co1zv7</u>**.jpg
+
 
 游戏评分只是分值，未免有些单调，因此加入了基本的判断输入，如下：
 
 ```html
-            <p>评级：{{ if eq (.Get 3) 1}}🌝🌑🌑🌑🌑{{ else if eq (.Get 3) 2}}🌝🌝🌑🌑🌑{{ else if eq (.Get 3) 3}}🌝🌝🌝🌑🌑{{ else if eq (.Get 3) 4}}🌝🌝🌝🌝🌑{{ else if eq (.Get 3) 5}}🌝🌝🌝🌝🌝{{ end }}</p>
+<p>评级：{{ if eq (.Get 3) 1}}🌝🌑🌑🌑🌑{{ else if eq (.Get 3) 2}}🌝🌝🌑🌑🌑{{ else if eq (.Get 3) 3}}🌝🌝🌝🌑🌑{{ else if eq (.Get 3) 4}}🌝🌝🌝🌝🌑{{ else if eq (.Get 3) 5}}🌝🌝🌝🌝🌝{{ end }}</p>
 ```
 
 其他的手动输入，只是省去了构建样式这一步，本质上只是个解耦的过程。最终短代码如下。
