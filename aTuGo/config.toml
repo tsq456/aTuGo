@@ -7,6 +7,7 @@ theme = "mini"
 paginate = 5
 
 hasCJKLanguage = true
+googleAnalytics = "UA-59524632-1"
 
 # 固定链接
 [permalinks]
@@ -53,8 +54,9 @@ hasCJKLanguage = true
 
 
   enableComments = true
-  enableGoogleAnalytics = false
+  enableGoogleAnalytics = true
   enableOpenGraph = true
+
 
 
 [[menu.main]]

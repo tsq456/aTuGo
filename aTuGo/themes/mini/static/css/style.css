@@ -116,20 +116,40 @@ tr:nth-child(odd)>td {
 h1,
 h2 {
   font-weight: 700;
-  text-align: center;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-h2::after {
-  display: inline-block;
-  top: 10px;
-  width: 120px;
-  height: 4px;
-  background-color: #red;
-  margin: 9px auto 0;
-  content: "";
+#single .content h1,
+#single .content h2 {
+  text-align: center;
+  position: relative;
 }
+
+#single .content h1::after,
+#single .content h2::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #878787;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: ease-in-out .5s;
+}
+
+#single .content h1:hover:after,
+#single .content h2:hover:after {
+  width: 140px;
+  background-color: #5badf0;
+  transition: ease-in-out .5s;
+}
+
+
+
+
 
 h3 {
   font-weight: 700;
