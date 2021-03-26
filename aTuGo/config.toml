@@ -45,6 +45,10 @@ googleAnalytics = "UA-59524632-1"
       hardWraps = false
       unsafe = false
       xhtml = false
+  [markup.tableOfContents]
+      endLevel = 3
+      ordered = false
+      startLevel = 2
 
 
 [params]

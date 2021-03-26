@@ -121,7 +121,9 @@ h2 {
 }
 
 #single .content h1,
-#single .content h2 {
+#single .content h2,
+#section h1,
+#section h2 {
   text-align: center;
   position: relative;
 }
@@ -146,8 +148,6 @@ h2 {
   background-color: #5badf0;
   transition: ease-in-out .5s;
 }
-
-
 
 
 
@@ -501,6 +501,29 @@ nav.navigation a:hover {
 }
 
 /* 目录样式 */
+/* .toc {
+  position: fixed;
+  margin-right: 10px;
+  right: 10px;
+  top: 180px;
+  font-size: 12px;
+  background-color: #fbfbfb;
+  border-left: 3px solid #eeeeee;
+}
+.toc header {
+  text-align: center;
+}
+
+.toc ul,ul>li,ol>li {
+  margin: 0;
+  list-style-type: none;
+  /* padding: 0; */
+}
+
+.toc ul {
+  padding-top: 4px;
+  padding-bottom: 4px;
+} */
 
 
 /* single页底部导航 */
