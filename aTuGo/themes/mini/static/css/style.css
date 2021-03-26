@@ -7,6 +7,11 @@
   padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 body {
   line-height: 1;
   font: normal 16px/1.5em 'Noto Serif SC', serif;
@@ -233,7 +238,7 @@ pre code {
   height: 64px;
 }
 
-/* 导航栏logo */
+
 .logo {
   transform: scale(.8);
 }
@@ -243,7 +248,6 @@ pre code {
   cursor: pointer;
 }
 
-/* 导航栏页签 */
 .main-width {
   position: absolute;
   left: 0;
@@ -300,16 +304,6 @@ nav.navigation a:hover {
   margin: 5px auto;
 }
 
-#footer .split {
-  cursor: pointer;
-}
-
-#footer .split:hover path {
-  fill: #ff3356;
-  transition: 0.7s ease-out;
-  cursor: pointer;
-}
-
 
 #social a {
   margin: 0 4px;
@@ -361,7 +355,6 @@ nav.navigation a:hover {
   margin-top: 12px;
 }
 
-/* 首页列表封面 */
 #list-page .item .content {
   flex-grow: 1;
   width: 70%;
@@ -431,7 +424,6 @@ nav.navigation a:hover {
   }
 }
 
-/* single 页面包屑导航 */
 .breadcrumb {
   background: #fafafa;
   padding: 4px 15px;
@@ -500,12 +492,10 @@ nav.navigation a:hover {
   color: #0366d6;
 }
 
-/* 目录样式 */
-/* .toc {
+.toc {
   position: fixed;
   margin-right: 10px;
   right: 10px;
-  top: 180px;
   font-size: 12px;
   background-color: #fbfbfb;
   border-left: 3px solid #eeeeee;
@@ -526,11 +516,11 @@ nav.navigation a:hover {
 } */
 
 
-/* single页底部导航 */
+
 .post-pagination {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  display: flex; 
+  justify-content: space-between; 
 }
 
 .post-pagination .newer-posts {
@@ -747,6 +737,7 @@ nav.navigation a:hover {
   color: #292929;
 }
 
+/* shortcode */
 .gamecard {
   max-width: 90%;
   background-color: rgba(128, 128, 128, 0.138);

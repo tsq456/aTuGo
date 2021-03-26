@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 {{ partial "toc.html" . }}
+
 <section id="single">
     <h1 class="title">{{ .Title }}</h1>
 
@@ -46,13 +47,11 @@
 
     {{ partial "postpagination.html" . }}
 
-    {{ if .Params.comment }}
+    {{ if .Params.comment | default true }}
         {{ partial "comment.html" . }}
     {{ else }}
         <p style="text-align: center; margin-top: 20px; font-size: 12px;">该页面已关闭评论</p>
     {{ end }}
-
-    
 
 </section>
 

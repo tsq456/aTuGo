@@ -4,12 +4,9 @@
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 <meta name="referrer" content="same-origin">
 {{ hugo.Generator }}
-{{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
-{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-  <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
-{{ else }}
-  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-{{ end }}
+
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
 
 <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
 <link rel="stylesheet" href="{{ "/css/prism.css" | relURL }}">
@@ -43,11 +40,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
 </style>
 
-<script async src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+<script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
 
-<script async src='https://cdn.jsdelivr.net/gh/iMuFeng/bmdb@3.3.0/dist/bmdb.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/iMuFeng/bmdb@3.3.0/dist/bmdb.js'></script>
 
-<script async src="{{ "/js/prism.js" | relURL }}"></script>
-
-<script src="http://cdn.bootcss.com/bootstrap/2.3.1/js/bootstrap-dropdown.js"></script>
-<script src="http://cdn.bootcss.com/bootstrap/2.3.1/js/bootstrap-scrollspy.js"></script>
+<script src="{{ "/js/prism.js" | relURL }}"></script>

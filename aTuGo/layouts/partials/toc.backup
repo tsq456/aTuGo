@@ -1,8 +1,0 @@
-{{ if and (gt .WordCount 400 ) }}
-<aside class="toc">
-    <header>
-    <strong>- 目录 -</strong>
-    </header>
-    {{.TableOfContents}}
-</aside>
-{{ end }}
