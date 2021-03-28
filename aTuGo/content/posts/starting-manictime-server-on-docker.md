@@ -107,7 +107,7 @@ docker run -v /var/lib/manictimeserver/Data:/app/Data -p 8080:8080 manictime/man
 
 启动成功后，在容器里会自动创建一个随机命名的新容器。
 
-![image-20210328154102067](https://30924398.xyz:6001/images/2021/03/28/image-20210328154102067.png)
+![image-20210328154102067](https://30924398.xyz:6001/images/2021/03/28/image-20210328154102067.png#center)
 
 再之后 可以在浏览器里输入你的nas内网地址+端口号访问MT Server的服务端了，输入之后创建时候设置的账号密码就可以进到服务端的管理台了。
 
