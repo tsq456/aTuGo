@@ -11,7 +11,7 @@ tags: [折腾,nas]
 
 关于ManicTime（后文称MT）是什么，在之前的一篇博客里有详细介绍过，自己用了一段时间下来，拖延症的症状得到了明显的改善，每天的时间安排也变得更加有序了，就想着看看手机端是什么亚子的，结果打开手机直接显示要登陆MT，这哪行，一定要看到APP端的界面才行。
 
-![image-20210328091813533](https://30924398.xyz:6001/images/2021/03/28/image-20210328091813533.png)
+![image-20210328091813533](https://30924398.xyz:6001/images/2021/03/28/image-20210328091813533.png#center)
 
 本想着直接抄袭下现成的作业就好了，无奈这款软件实在小众，中文搜索到的都是关于怎么用客户端的水文，没有现成的配置服务器的作业可以抄，谷歌搜到的相关内容都不多。那只能发挥靠天靠地靠祖上，不如靠自己的折腾精神了。话不多说，开搞。
 
@@ -19,7 +19,7 @@ tags: [折腾,nas]
 
 官方提供了两种搭建服务器的选择，**付费选择官方提供的云服务器**以及**自行搭建服务器**。前者貌似是订阅版才可以使用，我目前还是在产品的试用期，那自然就只能选择自建服务器（这个选项也是需要Pro版的）了。
 
-![image-20210328092521980](https://30924398.xyz:6001/images/2021/03/28/image-20210328092521980.png)
+![image-20210328092521980](https://30924398.xyz:6001/images/2021/03/28/image-20210328092521980.png#center)
 
 在自行搭建服务器的基础上，有三个版本可以选择：
 
@@ -41,7 +41,7 @@ tags: [折腾,nas]
 
 需要注意的是，在SSH中进行DOCKER的相关操作需要ROOT权限，SSH连接成功后，输入`sudo -i`后重新输入一次nas密码即可切换到ROOT账号下了。
 
-![image-20210328140527775](https://raw.githubusercontent.com/tsq456/picBed/master/image-20210328140527775.png)
+![image-20210328140527775](https://raw.githubusercontent.com/tsq456/picBed/master/image-20210328140527775.png#center)
 
 这几步中自己主要是在第3和第5步卡住了，这里简单记录下。
 
@@ -57,13 +57,13 @@ docker run -v /var/lib/manictimeserver/Data:/app/Data --rm --entrypoint dotnet  
 
 后来发现上面命令中`/var/lib/manictimeserver/Data:/app/Data`这一段路径代码里提到了两个路径，就尝试着在容器高级设置里面的卷分页签下装在路径填上`/app/Data`，之后就可以了。
 
-![image-20210328142335054](https://raw.githubusercontent.com/tsq456/picBed/master/image-20210328142335054.png)
+![image-20210328142335054](https://raw.githubusercontent.com/tsq456/picBed/master/image-20210328142335054.png#center)
 
 但是这里还有个没弄清楚的地方就是在于前面这个路径`/var/lib/manictimeserver/Data`代表什么，因为在卷里面选择的文件夹可以是自己创建的文件夹，但是在创建账号密码时使用的命令中又可以包含这串路径。而且在成功创建服务器后，这两个路径下都会有相同的文件。
 
-![111](https://raw.githubusercontent.com/tsq456/picBed/master/image-20210328143817392.png)
+![111](https://raw.githubusercontent.com/tsq456/picBed/master/image-20210328143817392.png#center)
 
-![image-20210328143842959](https://raw.githubusercontent.com/tsq456/picBed/master/image-20210328143842959.png)
+![image-20210328143842959](https://raw.githubusercontent.com/tsq456/picBed/master/image-20210328143842959.png#center)
 
 > 写这篇的时候顺道搜索了下Docker的一些说明文档，原来`/var/lib/manictimeserver/Data:/app/Data`这行命令的意思是将宿主机（Nas）的目录`/var/lib/manictimeserver/Data`挂载到容器的`/app/Data`下。
 >
@@ -99,11 +99,11 @@ docker run -v /var/lib/manictimeserver/Data:/app/Data -p 8080:8080 manictime/man
 3. 创建容器时无需配置任何信息，直接启动；
 4. 通过SSH连接到NAS，将容器挂载到第2部创建好的文件夹路径下并创建好服务器的账号密码，命令是`docker run -v DirA:/app/Data --rm --entrypoint dotnet  manictime/manictimeserver ManicTimeServer.dll addadmin -u <admin email> -p <admin password>`，其中-u后面就是设定的账号，-p后面就是设定的密码，自行替换。
 
-![image-20210328153647113](https://30924398.xyz:6001/images/2021/03/28/image-20210328153647113.png)
+![image-20210328153647113](https://30924398.xyz:6001/images/2021/03/28/image-20210328153647113.png#center)
 
 5. 启动MT服务器，命令是`docker run -v DirA:/app/Data -p 1234:5678 manictime/manictimeserver`其中1234是MTserver在宿主机中的运行端口号，5678是其在Docker中的运行端口号，不要与其他程序或者容器发生冲突。
 
-![image-20210328153725815](https://30924398.xyz:6001/images/2021/03/28/image-20210328153725815.png)
+![image-20210328153725815](https://30924398.xyz:6001/images/2021/03/28/image-20210328153725815.png#center)
 
 启动成功后，在容器里会自动创建一个随机命名的新容器。
 
