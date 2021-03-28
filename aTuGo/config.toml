@@ -27,7 +27,8 @@ googleAnalytics = "UA-59524632-1"
     noClasses = true
     style = "perldoc"
     tabWidth = 4
-
+    
+  defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
     [markup.goldmark.extensions]
       definitionList = true
