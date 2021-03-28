@@ -185,27 +185,6 @@ pre {
   word-break: break-all;
 }
 
-/* .markdown-image {
-  padding: 10px;
-  margin: 30px auto;
-  text-align: center;
-}
-
-.markdown-image img {
-  max-width: 100%;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-  border: 2px solid rgb(255, 255, 255);
-} */
-
-img[src$='#center'] {
-  display: block;
-  margin: 30px auto;
-  max-width: 80%;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-  border: 2px solid rgb(255, 255, 255);
-}
-
-
 h1:hover a,
 h2:hover a,
 h3:hover a,
@@ -546,6 +525,7 @@ nav.navigation a:hover {
 @media (max-width:1240px) {
   .toc {
     display: none;
+    }
   }
 
 
@@ -783,6 +763,7 @@ nav.navigation a:hover {
 
 .gamecard .cover {
   float: left;
+  width: 120px;
 }
 
 .gamecard .cover img {
