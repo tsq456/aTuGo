@@ -31,6 +31,14 @@ a:hover {
   color: #5badf0;
 }
 
+.markdown-image {
+  text-align: center;
+}
+
+.markdown-image img {
+  display: block;
+  margin:30px auto;
+}
 /* markdown content styles */
 
 ul {
