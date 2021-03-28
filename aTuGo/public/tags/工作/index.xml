@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工作 on 土狗</title>
+    <link>https://atugo.me/tags/%E5%B7%A5%E4%BD%9C/</link>
+    <description>Recent content in 工作 on 土狗</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 22 Mar 2021 20:29:23 +0800</lastBuildDate><atom:link href="https://atugo.me/tags/%E5%B7%A5%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>游戏商业化界面设计</title>
+      <link>https://atugo.me/posts/business-page-design/</link>
+      <pubDate>Mon, 22 Mar 2021 20:29:23 +0800</pubDate>
+      
+      <guid>https://atugo.me/posts/business-page-design/</guid>
+      <description>目的 由于数值投放及定价策略均不在本职能的可控范围内，所以我们的目的是通过改变框架层及界面层来影响玩家判断，尽可能将商业化界面的诉求 —— 拉收 提</description>
+    </item>
+    
+  </channel>
+</rss>

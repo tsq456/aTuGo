@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>折腾 on 土狗</title>
+    <link>https://atugo.me/tags/%E6%8A%98%E8%85%BE/</link>
+    <description>Recent content in 折腾 on 土狗</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 27 Mar 2021 09:05:30 +0800</lastBuildDate><atom:link href="https://atugo.me/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>创建ManicTime的服务器</title>
+      <link>https://atugo.me/posts/starting-manictime-server-on-docker/</link>
+      <pubDate>Sat, 27 Mar 2021 09:05:30 +0800</pubDate>
+      
+      <guid>https://atugo.me/posts/starting-manictime-server-on-docker/</guid>
+      <description>开搞前 关于ManicTime（后文称MT）是什么，在之前的一篇博客里有详细介绍过，自己用了一段时间下来，拖延症的症状得到了明显的改善，每天的</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 土狗</title>
+    <link>https://atugo.me/tags/</link>
+    <description>Recent content in Tags on 土狗</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 27 Mar 2021 09:05:30 +0800</lastBuildDate><atom:link href="https://atugo.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nas</title>
+      <link>https://atugo.me/tags/nas/</link>
+      <pubDate>Sat, 27 Mar 2021 09:05:30 +0800</pubDate>
+      
+      <guid>https://atugo.me/tags/nas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>折腾</title>
+      <link>https://atugo.me/tags/%E6%8A%98%E8%85%BE/</link>
+      <pubDate>Sat, 27 Mar 2021 09:05:30 +0800</pubDate>
+      
+      <guid>https://atugo.me/tags/%E6%8A%98%E8%85%BE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>工作</title>
+      <link>https://atugo.me/tags/%E5%B7%A5%E4%BD%9C/</link>
+      <pubDate>Mon, 22 Mar 2021 20:29:23 +0800</pubDate>
+      
+      <guid>https://atugo.me/tags/%E5%B7%A5%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>游戏</title>
+      <link>https://atugo.me/tags/%E6%B8%B8%E6%88%8F/</link>
+      <pubDate>Mon, 22 Mar 2021 20:29:23 +0800</pubDate>
+      
+      <guid>https://atugo.me/tags/%E6%B8%B8%E6%88%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>设计</title>
+      <link>https://atugo.me/tags/%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Mon, 22 Mar 2021 20:29:23 +0800</pubDate>
+      
+      <guid>https://atugo.me/tags/%E8%AE%BE%E8%AE%A1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
