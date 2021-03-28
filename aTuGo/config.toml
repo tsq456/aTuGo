@@ -43,7 +43,7 @@ googleAnalytics = "UA-59524632-1"
 
     [markup.goldmark.renderer]
       hardWraps = false
-      unsafe = false
+      unsafe = true
       xhtml = false
   [markup.tableOfContents]
       endLevel = 3
