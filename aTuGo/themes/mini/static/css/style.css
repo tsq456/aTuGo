@@ -39,6 +39,14 @@ a:hover {
   display: block;
   margin:30px auto;
 }
+
+img[src$='#center'] {
+  display: block;
+  margin: 30px auto;
+  max-width: 95%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid rgb(255, 255, 255);
+}
 /* markdown content styles */
 
 ul {
