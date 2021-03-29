@@ -12,7 +12,7 @@ tags: [游戏, 设计, 工作]
 
 由于数值投放及定价策略均不在本职能的可控范围内，所以我们的目的是通过改变**框架层及界面层**来影响玩家判断，尽可能将商业化界面的诉求 —— 拉收 提升到新的高度。         
 
-![img](https://30924398.xyz:6001/images/2020/12/30/D1ip0DrRzJroDTn4f9dbd248de26f2ab.png)
+![img](https://30924398.xyz:6001/images/2020/12/30/D1ip0DrRzJroDTn4f9dbd248de26f2ab.png#center)
 
 ## 商业化界面的本质
 
@@ -24,7 +24,7 @@ tags: [游戏, 设计, 工作]
 - 购买决定 - 在游戏中就是点击“购买”按钮这一行为
 - 购后评估 - 映射到游戏中就是点击“购买”按钮后的反馈         
 
-  ![img](https://uploader.shimo.im/f/LLvHOTKuOT00ER8m.png!thumbnail)
+  ![img](https://uploader.shimo.im/f/LLvHOTKuOT00ER8m.png#center)
 
 这5点都是在消费者决策链路中的重要环节，其中“信息评估”与“评估决定”是同步进行的。而倒推回商业化界面的设计，各环节的设计注意点也不尽相同。
 
@@ -96,27 +96,27 @@ tags: [游戏, 设计, 工作]
 
 **装饰性立绘**应当注意不要抢夺页面中收益部分的视觉重心（收益才是需要让玩家关注到的重点）；
 
-![img](https://uploader.shimo.im/f/bWziIECFFyrEvOg0.png!thumbnail)
+![img](https://uploader.shimo.im/f/bWziIECFFyrEvOg0.png#center)
 
 **商品立绘**应当在视觉上明确的让玩家认知到该立绘是商品之一，否则就失去了放置该立绘的意义；        
 
-![img](https://uploader.shimo.im/f/ITQpJLOiIkozihkW.png!thumbnail)
+![img](https://uploader.shimo.im/f/ITQpJLOiIkozihkW.png#center)
 
 可以考虑在商品立绘附近放置适当夸张的描述词语，突出稀有度和时效性以达到刺激玩家购买欲的结果，如“绝世神装”、“炫酷时装”、“绝版神奇”等；        
 
-![img](https://uploader.shimo.im/f/JSBQdWmHOfSyu9rk.png!thumbnail)
+![img](https://uploader.shimo.im/f/JSBQdWmHOfSyu9rk.png#center)
 
 会将商品形象放置在宣传区域，该商品必然是相对于其他道具而言的重要或稀有道具，基于此，可考虑**将道具带来的数值收益外化摆放在立绘附近**，如“战力暴涨9999！”；    
 
-![img](https://uploader.shimo.im/f/dxT2Zs0tkYLxxhwW.png!thumbnail)
+![img](https://uploader.shimo.im/f/dxT2Zs0tkYLxxhwW.png#center)
 
 如果是强调性价比的消费页面，可以考虑**将商品价值外化为等额的一级货币或者人民币**，以达到刺激玩家购买欲的结果；
 
-![img](https://uploader.shimo.im/f/P3O0ixEH76HNV21J.png!thumbnail)
+![img](https://uploader.shimo.im/f/P3O0ixEH76HNV21J.png#center)
 
 无论是装饰性立绘还是奖励立绘，都应当注意与页面整体的视觉协调度，破坏视觉的协调可能得到适得其反的结果。
 
-![img](https://uploader.shimo.im/f/gFg6rfGS6ArHVcQt.png!thumbnail)
+![img](https://uploader.shimo.im/f/gFg6rfGS6ArHVcQt.png#center)
 
 ### 美术字文案
 
@@ -130,7 +130,7 @@ tags: [游戏, 设计, 工作]
 
 **具体搭配需考虑实际情况，切忌盲目堆砌美术字，以免适得其反。** 
 
-![img](https://uploader.shimo.im/f/CXUd8IHeQVp2MuiA.png!thumbnail)
+![img](https://uploader.shimo.im/f/CXUd8IHeQVp2MuiA.png#center)
 
 文案应当简洁无需做出详细说明，展示活动重点且具有冲击力，可采用适当夸张说的词语。
 
@@ -140,11 +140,11 @@ tags: [游戏, 设计, 工作]
 
 如果在空间足够的情况下，尽量将商品的名称放出；
 
-![img](https://uploader.shimo.im/f/vgK8IO8mIOMWSCur.png!thumbnail)
+![img](https://uploader.shimo.im/f/vgK8IO8mIOMWSCur.png#center)
 
 奖励中的重要道具可使用光效来提升识别度；在光效的基础上也可增加标签来进一步强调道具的高价值，建议使用不同于常规页面中的标签文案（不要出现货不对板的情况），标签文案尽量强调道具的稀有度或时效性等。
 
-![img](https://uploader.shimo.im/f/UZt2jGncxkpq4mOs.png!thumbnail)
+![img](https://uploader.shimo.im/f/UZt2jGncxkpq4mOs.png#center)
 
 ### 购买相关操作
 
@@ -155,19 +155,19 @@ tags: [游戏, 设计, 工作]
 
 充消类界面的按钮应区别与游戏内的通用按钮，样式、颜色应更加华丽从而成为视觉注意点，引导玩家进行操作；
 
-![img](https://uploader.shimo.im/f/oEwS6EYKJyz0nnO6.png!thumbnail)
+![img](https://uploader.shimo.im/f/oEwS6EYKJyz0nnO6.png#center)
 
  当商品价值与价格存在倍率关系时，可考虑在操作按钮附近添加倍率标签，以营造商品实惠的感觉，刺激购买；
 
-![img](https://uploader.shimo.im/f/3U7RHiRpcRDAlCea.png!thumbnail)
+![img](https://uploader.shimo.im/f/3U7RHiRpcRDAlCea.png#center)
 
 有多个购买选项时（例如首充），可考虑将选项对应的收益拆分为两部分 - 基础收益 + 额外收益（相加后与价格倍率相同），创造高价选项额外收益更高的错觉，进而削弱付出感受；
 
-![img](https://uploader.shimo.im/f/3j40PrNrenXQ18ru.png!thumbnail) 
+![img](https://uploader.shimo.im/f/3j40PrNrenXQ18ru.png#center) 
 
 部分跳转至充值页面的按钮文案可进行趣味化设计，从而弱化付出感，例如用“充点小钱”替代“前往充值”；
 
-![img](https://uploader.shimo.im/f/kTyxfLtaTqUIqaK2.png!thumbnail)
+![img](https://uploader.shimo.im/f/kTyxfLtaTqUIqaK2.png#center)
 
  玩家的无法消费（耗）成功时，能直接告诉玩家怎么做的就不要通过提示告知玩家失败结果，例如使用一级货币兑换商品，货币不足时，应当直接将充值价格可获得差额货币摆在玩家面前并将其引导入充值流程，而非简单的提示玩家货币不足，草草了事。
 
@@ -179,19 +179,19 @@ tags: [游戏, 设计, 工作]
 
 时间放置在页面的上部，常规的界面浏览顺序是从上到下；
 
-![img](https://uploader.shimo.im/f/ZOuDz1tDpMtDiC80.png!thumbnail)
+![img](https://uploader.shimo.im/f/ZOuDz1tDpMtDiC80.png#center)
 
 与美术字文案类似，如果注释信息中存在以下类型信息时，同样需要在字号或者字色上强调：
 
 + 倍率信息 - X倍
 + 稀有性 - 机会仅一次
 
-![img](https://uploader.shimo.im/f/IML0BOK9S2MNbvTk.png!thumbnail)
+![img](https://uploader.shimo.im/f/IML0BOK9S2MNbvTk.png#center)
 
 需要将限购信息与购买按钮进行关联，可以在布局上贴近限购信息和购买按钮。强调时效性或稀有度的这类可以促成消费行为的注释信息，可尽量靠近操作区域。
 
-![img](https://uploader.shimo.im/f/IML0BOK9S2MNbvTk.png!thumbnail)
+![img](https://uploader.shimo.im/f/IML0BOK9S2MNbvTk.png#center)
 
 当充值金额等于游戏最低档消费金额时，都可使用“任意金额”来表示这一金额。
 
-![img](https://uploader.shimo.im/f/aiNCfwvkVBEIboH5.png!thumbnail)
+![img](https://uploader.shimo.im/f/aiNCfwvkVBEIboH5.png#center)
