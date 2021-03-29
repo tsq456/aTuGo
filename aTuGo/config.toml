@@ -28,40 +28,40 @@ googleAnalytics = "UA-59524632-1"
     style = "perldoc"
     tabWidth = 4
     
-  defaultMarkdownHandler = "blackfriday"
-  [markup.blackFriday]
-    angledQuotes = false
-    footnoteAnchorPrefix = ""
-    footnoteReturnLinkContents = ""
-    fractions = true
-    hrefTargetBlank = false
-    latexDashes = true
-    nofollowLinks = false
-    noreferrerLinks = false
-    plainIDAnchors = true
-    skipHTML = false
-    smartDashes = true
-    smartypants = true
-    smartypantsQuotesNBSP = false
-    taskLists = true
+  defaultMarkdownHandler = "goldmark"
+  # [markup.blackFriday]
+  #   angledQuotes = false
+  #   footnoteAnchorPrefix = ""
+  #   footnoteReturnLinkContents = ""
+  #   fractions = true
+  #   hrefTargetBlank = false
+  #   latexDashes = true
+  #   nofollowLinks = false
+  #   noreferrerLinks = false
+  #   plainIDAnchors = true
+  #   skipHTML = false
+  #   smartDashes = true
+  #   smartypants = true
+  #   smartypantsQuotesNBSP = false
+  #   taskLists = true
 
-  # [markup.goldmark]
-  #   [markup.goldmark.extensions]
-  #     definitionList = true
-  #     footnote = true
-  #     linkify = true
-  #     strikethrough = true
-  #     table = true
-  #     taskList = true
-  #     typographer = true
-  #   [markup.goldmark.parser]
-  #     autoHeadingID = true
-  #     autoHeadingIDType = "github"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
 
-  #   [markup.goldmark.renderer]
-  #     hardWraps = false
-  #     unsafe = true
-  #     xhtml = false
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
   [markup.tableOfContents]
       endLevel = 3
       ordered = false
