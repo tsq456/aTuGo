@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1">
 <meta name="description" content="所有关于新手设计的内容都在这里。">
 <meta name="referrer" content="same-origin">
-<meta name="generator" content="Hugo 0.81.0" />
+<meta name="generator" content="Hugo 0.82.0" />
 
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
@@ -165,8 +165,8 @@ if (!doNotTrack) {
     igdb
 </a>搞，通过观察可以发现海报的地址只有jpg之前的一段字符是不一样的，因此将该部分替换成参数</p>
 <blockquote>
-<p><a href="https://images.igdb.com/igdb/image/upload/t_cover_big/">https://images.igdb.com/igdb/image/upload/t_cover_big/</a><strong><u>co2jxw</u></strong>.jpg</p>
-<p><a href="https://images.igdb.com/igdb/image/upload/t_cover_big/">https://images.igdb.com/igdb/image/upload/t_cover_big/</a><strong><u>co1zv7</u></strong>.jpg</p>
+<p><a href="https://images.igdb.com/igdb/image/upload/t_cover_big/">https://images.igdb.com/igdb/image/upload/t_cover_big/</a><strong><!-- raw HTML omitted -->co2jxw<!-- raw HTML omitted --></strong>.jpg</p>
+<p><a href="https://images.igdb.com/igdb/image/upload/t_cover_big/">https://images.igdb.com/igdb/image/upload/t_cover_big/</a><strong><!-- raw HTML omitted -->co1zv7<!-- raw HTML omitted --></strong>.jpg</p>
 </blockquote>
 <p>游戏评分只是分值，未免有些单调，因此加入了基本的判断输入，如下：</p>
 <div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#8b008b;font-weight:bold">p</span>&gt;评级：{{ if eq (.Get 3) 1}}🌝🌑🌑🌑🌑{{ else if eq (.Get 3) 2}}🌝🌝🌑🌑🌑{{ else if eq (.Get 3) 3}}🌝🌝🌝🌑🌑{{ else if eq (.Get 3) 4}}🌝🌝🌝🌝🌑{{ else if eq (.Get 3) 5}}🌝🌝🌝🌝🌝{{ end }}&lt;/<span style="color:#8b008b;font-weight:bold">p</span>&gt;
