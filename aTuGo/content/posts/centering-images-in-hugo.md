@@ -1,7 +1,7 @@
 ---
 title: "怎么在hugo里居中对齐图片"
 date: 2021-03-28T17:22:07+08:00
-draft: false
+draft: true
 description: ""
 featured_image: ""
 tags: []
