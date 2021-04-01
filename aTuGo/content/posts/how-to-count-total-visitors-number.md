@@ -95,7 +95,7 @@ Error: Error building site: failed to render pages: render of “page” failed:
 
 
 
-### HUGO getCSV
+## HUGO getCSV
 
 [HUGO官方文档](https://gohugo.io/templates/data-templates/#example-for-csv-files)对于`getCSV`方法的使用示例是这样的。
 
