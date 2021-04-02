@@ -534,6 +534,12 @@ nav.navigation a:hover {
   padding-bottom: 4px;
 }
 
+aside nav .active a {
+  color: black;
+  transition: all ease-in-out .3s;
+  font-weight: 700;
+}
+
 @media (max-width:1240px) {
   .toc {
     display: none;

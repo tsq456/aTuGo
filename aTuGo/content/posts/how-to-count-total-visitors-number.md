@@ -1,5 +1,5 @@
 ---
-title: "在hugo中统计PV和UV"
+title: "使用Google Spreadsheet统计PV和UV"
 date: 2021-03-30T21:44:20+08:00
 draft: false
 comment: true
@@ -8,6 +8,7 @@ featured_image:
 tags: [hugo,折腾]
 toc: true
 ---
+>21年4月2日：我是沙雕，原来有现成的服务可以使用，[不蒜子](https://busuanzi.ibruce.info/)就提供很好的网站计数服务...而且谷歌表格由于统计周期的问题，只适合用来统计PV统计。
 
 >本文基于hugo已接入Google Analytics（下文统称GA）以及能够访问Google Spreadsheet为前提。大部分HUGO主题都已经默认集成了GA，至于怎么访问谷歌表格，你懂得。
 
