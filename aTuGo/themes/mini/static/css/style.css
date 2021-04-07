@@ -817,3 +817,65 @@ aside nav .active a {
   font-size: 16px;
 }
 
+/* listpagination */
+.pagination-list {
+  margin: 0px;
+  padding: 10px;
+}
+
+.listPagination {
+  text-align: center;
+}
+
+.pagination-list li {
+  list-style: none;
+  display: inline-block;
+}
+
+.pagination-link a {
+  display: inline-block;
+  border: 1px solid rgb(201, 201, 201);
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #292929;
+}
+
+.pagination-link.is-current a {
+  display: inline-block;
+  border: 0px solid rgb(201, 201, 201);
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  background-color: #292929;
+}
+
+.pagination-link.is-current a {
+  color: #ccc;
+}
+
+.pagination-link a {
+  color: #292929;
+}
+
+.pagination-previous,
+.pagination-next,
+.listPagination .pagination-list {
+  display: inline-block;
+  color: #292929;
+}
+
+.pagination-ellipsis {
+  margin: 0px 10px;
+}
+
+.pagination-previous-none,
+.pagination-next-none,
+.pagination-previous-none:hover,
+.pagination-next-none:hover {
+  color: #bbb;
+  text-decoration: #bbb;
+}

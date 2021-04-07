@@ -31,28 +31,7 @@
           {{ end }}
         </article>
     {{ end }}
-
-    {{/*  首页分页代码  */}}
-    {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
-        <div class="pagination">
-          {{ if $paginator.HasPrev }}
-              <span class="prev">
-                  <a href="{{.Paginator.Prev.URL}}">
-                      <span class="arrow">←</span> {{ with .Site.Params.newerPosts }}{{ . }}{{ else }}新的文章{{ end }}
-                  </a>
-            </span>
-          {{ end }}
-          
-          {{ if $paginator.HasNext }}
-              <span class="next">
-                  <a href="{{.Paginator.Next.URL}}">
-                      {{ with .Site.Params.olderPosts }}{{ . }}{{ else }}老的文章{{ end }} <span class="arrow">→</span>
-                  </a>
-              </span>
-          {{ end }}
-        </div>
-    {{ end }}
-
-
+    <hr>
+    {{ partial "pagination" . }}
 </div>
 {{ end }}

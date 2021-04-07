@@ -85,10 +85,6 @@ name = "归档"
 url = "/posts"
 weight = "100"
 [[menu.main]]
-name = "观影"
-url = "/movies"
-weight = "200"
-[[menu.main]]
 name = "游戏"
 url = "/game"
 weight = "300"
