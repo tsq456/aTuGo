@@ -9,9 +9,13 @@ paginate = 5
 hasCJKLanguage = true
 googleAnalytics = "UA-59524632-1"
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 # 固定链接
 [permalinks]
-  posts = "/posts/:filename"
+  posts = "/:year/:month/:filename/"
 
 
 [markup]

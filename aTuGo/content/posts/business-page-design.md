@@ -6,6 +6,7 @@ featured_image: "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=56876
 description: "怎么让你设计的商业化界面更符合项目需求。"
 comment: true
 tags: [游戏, 设计, 工作]
+categories: [生活, 工作]
 ---
 
 ## 目的

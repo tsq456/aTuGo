@@ -1,0 +1,48 @@
+{{ define "main" }}
+<section id="archive">
+
+    <div class="group">
+        <h3 class="key">
+            {{ .Title }}
+        </h3>
+
+        <img src="/images/{{ .Title }}.png" alt="{{.Title}}">
+
+        {{ range .Pages }}
+            <div class="value">
+                <div class="date">
+                    {{ .Date.Format "2006-01-02" }}
+                </div>
+                <div class="title">
+                    <a href="{{ .Permalink }}">
+                        {{ .Title }}
+                    </a>
+
+                    {{ with .Params.tags }}
+                        <div class="tags">
+                            {{ range . }}
+                                <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+                            {{ end }}
+                        </div>
+                    {{ end}}
+                </div>
+            </div>
+        {{ end }}          
+    </div>
+
+    {{ range $tags, $taxonomy := .Site.Taxonomies.tags }}
+        <li id="tags"><a href="{{ "/tags/" | relLangURL}}{{ $tags | urlize }}">{{ $tags }}</a></li>
+    {{ end }}
+
+      <br>
+
+    {{ range $categories, $taxonomy := .Site.Taxonomies.categories }}
+        <li><a href="{{ "/categories/" | relLangURL}}{{ $categories | urlize }}">{{ $categories }}</a></li>
+    {{ end }}
+
+
+
+</section>
+
+
+{{ end }}

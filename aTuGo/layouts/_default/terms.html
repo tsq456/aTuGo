@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+
+
+<section id="tags">
+
+    <p>最新文章</p>
+
+    {{ range where .Site.RegularPages "Section" "posts" }}
+        <li><a href="#">{{ .Title }}</a></li>
+    {{ end }}
+
+    {{ range $tags, $taxonomy := .Site.Taxonomies.tags }}
+        <li id="tags"><a href="{{ "/tags/" | relLangURL}}{{ $tags | urlize }}">{{ $tags }}</a></li>
+    {{ end }}
+
+      <br>
+
+    {{ range $categories, $taxonomy := .Site.Taxonomies.categories }}
+        <li><a href="{{ "/categories/" | relLangURL}}{{ $categories | urlize }}">{{ $categories }}</a></li>
+    {{ end }}
+
+    
+
+      {{/*  {{ $data := .Data }}
+      {{ range $key, $value := .Data.Terms.ByCount }}
+          {{ if $value.Name }}
+              <span class="tag">
+                  <a href="{{ "tags/" | relURL }}{{ $value.Name | urlize }}">
+                    {{ $value.Name | upper }} <span>{{ $value.Count }}</span>
+                </a>
+              </span>
+          {{ end }}
+      {{ end }}
+
+      {{ range $key, $value := .Data.Terms.ByCount }}
+        {{ if $value.Name }}
+            <span class="tag">
+                <a href="{{ "categories/" | relURL }}{{ $value.Name | urlize }}">
+                    {{ $value.Name | upper }} <span>{{ $value.Count }}</span>
+                </a>
+            </span>
+        {{ end }}
+      {{ end }}  */}}
+</section>
+{{ end }}
